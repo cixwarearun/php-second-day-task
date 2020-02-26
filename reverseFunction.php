@@ -4,8 +4,12 @@ $number = 3456;
   $reverse= 0;
   while($number > 0){
       $modulu = $number % 10;
+      // echo $modulu;
+      // echo '<br>';
+
       $reverse = ($reverse * 10) + $modulu;
-      $number = (int) $number / 10 ;
+      $number = (int)($number / 10)  ;
+      // echo '$number='.$number.'<br>';
   }
 
   echo "The reverse 0f $num after reverse  is\t".$reverse;

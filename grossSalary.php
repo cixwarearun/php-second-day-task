@@ -2,10 +2,10 @@
 
 <?php
 
-for($i=1; $i<11; $i++){
-    
-    $tableOfFive = 5 * $i ;
-    echo $tableOfFive;
-}
+$basicSalary = 10000;
+$medicalAllowance = 1000;
+$transportAllowance = 1000;
+$grossSalary = $basicSalary +  $medicalAllowance + $transportAllowance;
+echo $grossSalary;
 
 ?>

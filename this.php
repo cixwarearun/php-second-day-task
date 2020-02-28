@@ -62,47 +62,67 @@
   }
   
   //marks between 0 - 9
+ 
   print_r($arr1);
+  echo  "The number between 0 -9 is\t" . count($arr1);
 
   echo '<br>';
   echo '<br>';
 // marks between 10-19
+
   print_r($arr2);
+  echo  "The number between 10 -19 is\t" .count($arr2);
   echo '<br>';
   echo '<br>';
   //marks between 20-29
+ 
   print_r($arr3);
+  echo  "The number between 20 -29 is\t" .count($arr3);
   echo '<br>';
   echo '<br>';
 
   //marks between 30-39
+ 
   print_r($arr4);
+  echo  "The number between 30 -39 is\t" .count($arr4);
 
   echo '<br>';
   echo '<br>';
 //marks between 40-49
+
   print_r($arr5);
+  echo  "The number between 40 -49 is\t" .count($arr5);
   echo '<br>';
   echo '<br>';
 
   //marks between 50-59
+  
   print_r($arr6);
+  echo  "The number between 50 -59 is\t" .count($arr6);
   echo '<br>';
   echo '<br>';
   //marks between 60-69
+  
   print_r($arr7);
+  echo  "The number between 60 -69 is\t" .count($arr7);
 
   echo '<br>';
   echo '<br>';
 //marks between 70-79
+
   print_r($arr8);
+  echo  "The number between 70 -79 is\t" .count($arr8);
   echo '<br>';
   echo '<br>';
   //marks between 80-89
+  
   print_r($arr9);
+  echo  "The number between 80 -89 is\t" .count($arr9);
   echo '<br>';
   echo '<br>';
   //marks between 90-99
+  
   print_r($arr10);
+  echo "The number between 90 -99 is\t" .count($arr10);
     
  ?>

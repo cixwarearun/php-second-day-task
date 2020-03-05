@@ -1,6 +1,5 @@
 <?php
-   $main='A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants 
-   (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually by providing a mechanism for the union of sperm with eggs. Flowers may facilitate outcrossing (fusion of sperm and eggs from different individuals in a population) resulting from cross pollination or allow selfing (fusion of sperm and egg from the same flower) when self pollination occurs. Some flowers produce diaspores without fertilization (parthenocarpy). Flowers contain sporangia and are the site where gametophytes develop. Many flowers have evolved to be attractive to animals, so as to cause them to be vectors
+   $main='A develo so as to cause them to be vectors
     for the transfer of pollen. After fertilization, the ovary of the flower develops into fruit containing seeds.';
     $block = 'Lorem ipsum dolor sit amet consectetur adidkjdf  dklfjd dfj dfuoik jklsfuoilj';
 ?>
@@ -16,14 +15,24 @@
 </head>
 <body class="overflow-x-hidden mx-4 " > 
     <header class="      pt-8 text-blue-700  xl:flex-row md:justify-between  ">
-        <h1 class="text-3xl font-bold flex">
-            <img class="h-10 w-10" src="image/cixware.png" alt="">
-            <div>
+        
+        <h1 class="text-3xl font-bold flex justify-between">
+            <div class="flex">
+                <img class="h-10 w-10" src="image/cixware.png" alt="">
+                <div>
 
+              
+                    <div> Arun<span class="text-blue-900">Bastola</span></div>
+                    <div class="text-xs px-4">Lorem ipsum dolor sit amet consectetur adipifjdklf akjd f mu name ais  akf</div>
+                </div>
+            </div>
+            <div class="text-xs  text-white  ">
+               <button class="w-8 bg-blue-700 rounded-md ">EN</button>
+               <button class="w-8 bg-blue-700 rounded-md ">ED</button>
+               <button class="w-8 bg-blue-700 rounded-md ">EC</button>
+               <button class="w-8 bg-blue-700 rounded-md ">EG</button>
+            </div>
           
-           <div> Arun<span class="text-blue-900">Bastola</span></div>
-           <div class="text-xs px-4">Lorem ipsum dolor sit amet consectetur adipifjdklf akjd f mu name ais  akf</div>
-           </div>
 
         </h1>
         <div class="flex flex-col-reverse bg-blue-700 text-white lg:flex-row md:justify-between mt-10 mb-10 ">
@@ -47,41 +56,51 @@
     </header>
     <section >
         <div >
+           
             <img class="w-full " src="image/remo.jpg" alt="">
         </div>
        
     </section>
     <section class="flex mt-10 ">
-        <div class="mr-32 pt-2 border-2 px-4 pb-2">
-             <div class=" flex justify-between"> 
+        <div class=" mr-8 pt-2 border-2 px-4 pb-2">
+        <h1 class="bg-blue-700 text-white pl-2">Top Story Heading</h1>
+             <div class=" flex justify-between mt-4"> 
+
                  <img class="w-64" src="image/binod-1.jpg" alt="">
                  <div class="mx-8 text-justify">
                      <?php
                         echo $main;
+                        echo '<br>';
+                        echo strtoupper($main);
+                        echo '<br>';
+                        print_r( str_split($main,15));
+                        echo '<br>';
+                        echo str_repeat($block,3);
+                        
                      ?>
                  </div> 
              </div>
              <div>
-               <div class="flex justify-between  px-64 mt-4">
-                     <button class="border-2 bg-blue-700  rounded-full p-2 text-white" type="submit">Download</button>
+               <div class="flex justify-between  px-64 mx-20 mt-4">
+                     <button class="w-32 bg-blue-700  rounded-md overflow-hidden  p-2 text-white" type="submit">Download</button>
               
                 
-                 <button  class="border-2 bg-blue-700 rounded-full p-2 text-white" type="submit">Purchase</button>
+                 <button  class=" w-32 bg-blue-700 rounded-md p-2 text-white" type="submit">Purchase</button>
              </div>
              <div class="mt-8">
-                 <h2 class="bg-blue-700 text-white ">
+                 <h2 class="bg-blue-700 text-white pl-2">
                      A monthly newspaper brought to you by Mr.Arun
                  </h2>
-                 <div class="flex justify-between mt-8">
-                     <div>
-                         <img class="w-64" src="image/diken.jpg" alt="">
+                 <div class="flex justify-between mt-8 ">
+                     <div class="px-2">
+                         <img class="w-64 h-64"  src="image/diken.jpg" alt="">
                          <div class="w-64 mt-4">
                              <?php
                                echo $block;
                              ?>
                          </div>
                      </div>
-                     <div>
+                     <div class="px-2">
                          <img class="w-64 h-64" src="image/diken.jpg" alt="">
                          <div class="w-64 mt-4">
                          <?php
@@ -89,38 +108,39 @@
                              ?>
                          </div>
                      </div>
-                     <div >
-                     <table class="border-2  ">
-                                <?php
-                                function maka($n)
-                                {
-                                    for($i=0; $i<$n; $i++)
-                                    {
-                                        echo '<tr>';
-                                        for($j=0; $j<$n; $j++)
+                     <div class="px-2">
+                            <table class="border-2  ">
+                                        <?php
+                                        function maka($n)
                                         {
-                                            if(($i+$j)%2==0)
+                                            for($i=0; $i<$n; $i++)
+                                            {
+                                                echo '<tr>';
+                                                for($j=0; $j<$n; $j++)
                                                 {
-                                                    echo "<td height=32px width=32px bgcolor=#FFFFFF></td>";
+                                                    if(($i+$j)%2==0)
+                                                        {
+                                                            echo "<td height=32px width=32px bgcolor=#FFFFFF></td>";
+                                                        }
+                                                        else{
+                                                            echo "<td height=32px width=32px bgcolor=red></td>";
+                                                        }                
+                                                        
                                                 }
-                                                else{
-                                                    echo "<td height=32px width=32px bgcolor=red></td>";
-                                                }                
-                                                
+                                                echo '</tr>';
+                                            }
                                         }
-                                        echo '</tr>';
-                                    }
-                                }
-                                maka(8)
-                                ?>
-                            </table>
+                                        maka(8)
+                                        ?>
+                                    </table>
+                    
                          <div class="w-64 mt-4">
                              <?php
                                echo $block;
                              ?>
                          </div>
                      </div>
-                     <div>
+                     <div class="px-2">
                      <table class="border-2 ">
                                 <?php
                                 function arun($n)
@@ -156,6 +176,7 @@
                  <div class="mt-8">
                     <?php
                        echo $main;
+                       echo str_repeat($main,4);
                     ?>
                  </div>
              </div>
@@ -163,21 +184,21 @@
         </div>
         <div class="w-full" >
             <div class="mb-10 border-2 pb-4 ">
-                 <h1 class="bg-blue-700 text-white">Social</h1>
-                 <img   src="image/sibu.jpg" alt="">
+                 <h1 class="bg-blue-700 text-white text-center mb-4 mt-2 mx-2">Social</h1>
+                 <img class="px-8"   src="image/sibu.jpg" alt="">
                  <div class="flex justify-center">
-                 <button class="border-2 mt-4 align-center  text-center bg-blue-700 mr-4 rounded-full p-2 text-white" type="submit">Share and Links</button>
+                 <button class="mx-8 w-full mt-4 align-center  text-center bg-blue-700  rounded-md p-2 text-white" type="submit">Share and Links</button>
                  </div>
             </div>
-            <div class="border-2 pb-4">
-                 <div class="bg-blue-700">Navigate</div>
-                 <div>
+            <div class="border-2 pb-4  px-2">
+                 <div class="bg-blue-700 text-center text-white mt-2">Navigate</div>
+                 <div class="mt-2">
 
                     
                         <?php
                         $a=0;
                             while($a<8){
-                                echo 'items'.'<br>';
+                                echo '<li class=ml-10>'.'items'.'</li>';
                                 
                                 $a++;
                                 
@@ -203,7 +224,7 @@
    
     
     <footer class="mx-auto">
-        <div class="text-center  text-xs text-bold mt-2 mb-4  ">
+        <div class="text-center  text-xs text-bold mt-4 mb-8  ">
             Copyright company &copy;2020. All Right Preserved.
         </div>
     </footer>

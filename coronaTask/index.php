@@ -47,7 +47,10 @@
                 <a class="mr-8 hover:text-blue-700" href="pricing.html">Pricing</a>
                 <a class="mr-8 hover:text-blue-700" href="resources.html">Resources <span class="text-xs">▼</span></a>
                 <a class="mr-8 hover:text-blue-700" href="company.html">Company</a>
-                <a class="mr-8 rounded-md bg-blue-700 text-white px-2 py-2  hover:bg-red-700" href="contact.html">Contact Us</a>
+                <a class=" mr-8 hover:text-blue-700" href="contact.html">Contact Us</a>
+                <a class="mr-8 rounded-md bg-blue-700 text-white px-2 py-2  hover:bg-red-700" href="#">Sign Up Today</a>
+
+              
             </div>
         </div>
        

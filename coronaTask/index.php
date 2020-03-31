@@ -128,6 +128,91 @@
                     </div>
                 </div>
             </div>
+            <div class="flex justify-between mx-20 mt-10 ">
+                <div class="max-w-md rounded overflow-hidden shadow-lg flex px-10 bg-gray-500 py-4">
+                    <div class="pt-10 mr-4">
+                        <img src="png/code.png" alt="our integration">
+                    </div>
+                    <div>
+                        <h1 class="text-xl text-blue-700 font-bold">Our Integrations</h1>
+                        <div class="text-justify">
+                            We offer advance two way SMS funcationality that directly integrates with several platforms.
+                            <a href="">Find out more here..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-md rounded overflow-hidden shadow-lg flex px-10 bg-gray-500 py-4">
+                    <div class="pt-16 mr-4">
+                        <img src="png/sms.png" alt="sms">
+                    </div>
+                    <div>
+                        <h1 class="text-xl text-blue-700 font-bold">Receive SMS</h1>
+                        <div class="text-justify">
+                            Receive mobile originating SMS messages for marketing and other communication purposes.Try 
+                            <a href="#">Incoming Long Numbers </a> or
+                                <a href="#">SMS Shortcodes. </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20">
+                <h1 class="text-gray-600">Each of our solution address your needs. Compare Solutions</h1>
+                <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-4 hover:bg-red-700">Try BulkSMS For Free</button>
+            </div>
+        </div>
+    </section>
+    <section class="bg-blue-700">
+        <div class="mx-48  mt-20 text-center text-white">
+            <div class="pt-10 mb-10  text-4xl font-bold">
+                Why BulkSMS
+            </div>
+            <div class="flex justify-between">
+                <div class="text-center max-w-md">
+                    <div class="flex justify-center" >
+                        <img class="rounded-full h-32 " src="png/support.png" alt="support">
+                    </div>
+                    <div class="mt-4 text-xl">
+                        Support
+                    </div>
+                    <div class="w-48 mt-4 ">
+                        Our support team is dedicated to helping you get your SMS message across.
+                    </div>
+                </div>
+                <div class="text-center max-w-md ">
+                    <div class="flex justify-center">
+                        <img class="rounded-full h-32" src="png/reliabledelivery.jpg" alt="delivery">
+                    </div>
+                    <div class="mt-4 text-xl">
+                        Reliable Delivery
+                    </div>
+                    <div class="w-48 mt-4">
+                        We send your message through the most reliable routes on offer.
+                    </div>
+                </div>
+                <div class="text-center max-w-md">
+                    <div class="flex justify-center">
+                        <img class="rounded-full h-32" src="png/medal.jpg" alt="regulations">
+                    </div>
+                    <div  class="mt-4 text-xl">
+                        Regulations
+                    </div>
+                    <div class="w-48 mt-4">
+                         Easy access to infromation on industry best practices and regional regulations.
+                    </div>
+                </div>
+                <div class="text-center max-w-md">
+                    <div class="flex justify-center">
+                        <img class="rounded-full h-32" src="png/easy.jpg" alt="easy">
+                    </div>
+                    <div class="mt-4 text-xl">
+                        Easy Access
+                    </div>
+                    <div class="w-48 mt-4">
+                        Access all our SMS Solutions with one account.
+                    </div>
+                </div>
+               
+            </div>
         </div>
     </section>
     

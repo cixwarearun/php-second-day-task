@@ -37,7 +37,7 @@
         </div>
     </header>
     <section >
-        <div class="mx-48 text-gray-800 flex justify-between mt-2 ">
+        <div class="mx-48 text-gray-800 flex justify-between mt-4 ">
             <div>
                  <img class="h-20" src="png/a.png" alt="fly">
             </div>
@@ -48,9 +48,22 @@
                 <a class="mr-8 hover:text-blue-700" href="resources.html">Resources <span class="text-xs">▼</span></a>
                 <a class="mr-8 hover:text-blue-700" href="company.html">Company</a>
                 <a class=" mr-8 hover:text-blue-700" href="contact.html">Contact Us</a>
-                <a class="mr-8 rounded-md bg-blue-700 text-white px-2 py-2  hover:bg-red-700" href="#">Sign Up Today</a>
+                <a class="mr-8 rounded-md bg-blue-700 text-white px-4 py-2  hover:bg-red-700" href="#">Sign Up Today</a>
 
               
+            </div>
+        </div>
+       
+    </section>
+    <section class="bg-gray-300">
+        <div class="flex mx-48 justify-between mt-4">
+            <div class="my-auto" >
+                <h1 class="text-4xl">Get Your Message Across</h1>
+                <h3 class="w-2/4 text-gray-700 mt-4">A leading service provider offering two-ways SMS communication from anywhere at any time.</h3>
+                <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-4 hover:bg-red-700">Register your account today</button>
+            </div>
+            <div>
+                <img class="h-64" src="png/relation.png" alt="image">
             </div>
         </div>
        

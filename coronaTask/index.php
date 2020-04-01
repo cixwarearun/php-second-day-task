@@ -78,7 +78,7 @@
             <div  class="flex justify-between mx-20 mt-20">
                 <div class="max-w-md rounded overflow-hidden shadow-lg ">
                     <div>
-                        <img src="images/a.jpg" alt="">
+                        <img src="images/a.jpg" alt="image">
                     </div>
                     <div class=" text-center mt-2">
                         <h3 class="text-xl text-blue-700 ">Send SMS from Web </h3>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="max-w-md rounded overflow-hidden shadow-lg ">
                     <div class="border-b-2 border-blue-700">
-                        <img src="images/b.jpg" alt="">
+                        <img src="images/b.jpg" alt="image">
                     </div>
                     <div class=" text-center mt-2 ">
                         <h3 class="text-xl text-blue-700 ">Use Our SMS API </h3>
@@ -129,7 +129,7 @@
                 </div>
             </div>
             <div class="flex justify-between mx-20 mt-10 ">
-                <div class="max-w-md rounded overflow-hidden shadow-lg flex px-10 bg-gray-500 py-4">
+                <div class="max-w-md rounded overflow-hidden shadow-lg flex px-10 bg-gray-300 py-4">
                     <div class="pt-10 mr-4">
                         <img src="png/code.png" alt="our integration">
                     </div>
@@ -141,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="max-w-md rounded overflow-hidden shadow-lg flex px-10 bg-gray-500 py-4">
+                <div class="max-w-md rounded overflow-hidden shadow-lg flex px-10 bg-gray-300 py-4">
                     <div class="pt-16 mr-4">
                         <img src="png/sms.png" alt="sms">
                     </div>
@@ -162,7 +162,7 @@
         </div>
     </section>
     <section class="bg-blue-700">
-        <div class="mx-48  mt-20 text-center text-white">
+        <div class="mx-64  mt-20 text-center text-white pb-12 ">
             <div class="pt-10 mb-10  text-4xl font-bold">
                 Why BulkSMS
             </div>
@@ -214,6 +214,160 @@
                
             </div>
         </div>
+    </section>
+    <section class="mt-10">
+        <div class="max-w rounded overflow-hidden shadow-inner shadow-lg mx-64 text-center pt-10">
+            <div class="text-4xl">
+                We Connect to Over 800 Networks, Globally.
+            </div>
+            <div class="flex justify-between px-20 mt-10">  
+
+                <div class="flex flex-col ">
+                    <div class="flex mr-10 mb-8">
+                        <div>
+                             <img src="png/south-africa.png" alt="South Africa">
+                        </div>
+                        <div class="ml-2">
+                            South Africa
+                        </div>
+                    </div>
+                    <div class="flex mb-8">
+                         <div>
+                            <img src="png/singapur.png" alt="singapore">
+                        </div>
+                        
+                        <div class="ml-2">
+                            Singapore
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div>
+                              <img src="png/denmark.png" alt="Denmark">
+                        </div>
+                        <div class="ml-2">
+                             Denmark
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="flex flex-col  ">
+                    <div class="flex mb-8">
+                         <div>
+                           <img src="png/germany.png" alt="Germany">
+                        </div>
+                        <div class="ml-2">
+                            Germany
+                        </div>
+                    </div>
+                    <div class="flex mb-8">
+                        <div>
+                            <img src="png/finland.png" alt="finland">
+                        </div>
+                        <div class="ml-2">
+                            Finland
+                        </div>
+                    </div>
+                    <div class="flex">
+                        <div>
+                            <img src="png/Rusia.png" alt="Russia">
+                        </div>
+                        <div class="ml-2">
+                              Russia
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+                <div class="flex flex-col  ">
+                    <div class="flex mb-8">
+                        <div>
+                             <img src="png/UK.png" alt="uk">
+                        </div>
+                        <div class="ml-2">
+                            United Kingdom
+                        </div>
+                    </div>
+                    <div class="flex mb-8">
+                        <div>
+                            <img src="png/canada.png" alt="canada">
+                        </div>
+                        <div class="ml-2">
+                            Canada
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="flex">
+                        <div>
+                            <img src="png/norway.png" alt="Norway">
+                        </div>
+                        <div class="ml-2">
+                            Norway
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="flex flex-col ">
+                    <div class="flex mb-8">
+                        <div> 
+                            <img src="png/usa.png" alt="usa">
+                        </div>
+                        <div class="ml-2">
+                            USA
+                        </div>
+                    </div>
+                    <div class="flex mb-8"> 
+                        <div>
+                             <img src="png/Rep-ireland.png" alt="ireland">
+                        </div>
+                        <div class="ml-2">
+                            Rep. Ireland
+                        </div>
+                    </div>
+                    <div>
+                         +170 Other Countires                     
+                    </div>
+
+                </div>
+                
+             </div>        
+            
+            <div class="bg-gray-300 mt-10">
+                <div class="pt-8 pb-8">
+                    <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-4 hover:bg-red-700 mr-4">
+                        View all our Networks
+                    </button>
+                    <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-4 hover:bg-red-700 ml-4">
+                        Test Your Networks
+                    </button>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    <section class="mt-10">
+        <div class="text-center">
+            <div class="text-4xl mb-10">
+                What our client love
+            </div>
+            <div>
+                <div >
+                    <h3 class="text-xl font-semibold">Great</h3>
+                    <p class=" text-white text-basic my-2">
+                        <i class=" icon-color fas fa-star bg-green-300 p-1"> </i>
+                        <i class=" icon-color fas fa-star  p-1" > </i>
+                        <i class=" icon-color fas fa-star  p-1" > </i>
+                        <i class=" icon-color fas fa-star  p-1" > </i>
+                        <i class="far fa-star bg-gray-500 p-1"> </i>
+                    </p>
+                    <span>Based on <u> 1,339 reviews</u></span>
+                    <h2 class="text-lg font-semibold"><i class="fas fa-star text-green-500"> </i>Trustpilot</h2>
+                </div>
+            </div>
+        </div>
+        
     </section>
     
 </body>

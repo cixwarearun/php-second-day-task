@@ -9,6 +9,12 @@
     <title>Corona Task</title>
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <style>
+      section .a{
+            margin-right: 21px ;
+            color: gray;
+             }
+    </style>
 </head>
 <body class="mx-auto">
     <header class="bg-blue-700 mx-auto">
@@ -534,16 +540,39 @@
          </div>
     </section>
     <section>
-        <div class="mx-48 mt-6 text-xs ">
-            <div class="text-red-600">
+        <div class="mx-48 mt-6 text-xs bg-gray-300 flex px-8 p-4">
+            <div class="text-red-600 font-semibold ">
                 SMS COVERAGE DIRECTORY
             </div>
-            <div>
-                <ol type="A">
-                    <li>ss</li>
-                </ol>
+            <div class="ml-20">
+                <span class="text-red-600 mr-6">A</span>
+                <?php
+                    foreach (range('B', 'Z') as $column)
+                    {
+                       echo " <span  class=a> $column </span>";
+                    }   
+          
+              ?>       
             </div>
         </div>
+    </section>
+    <section class="bg-gray-300">
+        <div class="flex">
+                <div class="text-xl font-semibold">Great</div>
+                <div class=" text-white text-xl my-2">
+                    <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                    <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                    <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                    <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                    <i class="far fa-star bg-gray-500 p-1"> </i>
+                </div>
+                <div> 1,339 reviews</div>
+               <i class="fas fa-star text-green-500"> </i>
+               <div>Trustpilot</div>
+              </div>
+           
+        </div>
+    
     </section>
 </body>
 </html>

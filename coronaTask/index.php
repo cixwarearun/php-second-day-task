@@ -348,22 +348,88 @@
         </div>
     </section>
     <section class="mt-10">
-        <div class="text-center">
+        <div class="text-center mx-64">
             <div class="text-4xl mb-10">
                 What our client love
             </div>
-            <div>
+            <div class="flex justify-between">
                 <div >
                     <h3 class="text-xl font-semibold">Great</h3>
-                    <p class=" text-white text-basic my-2">
-                        <i class=" icon-color fas fa-star bg-green-300 p-1"> </i>
-                        <i class=" icon-color fas fa-star  p-1" > </i>
-                        <i class=" icon-color fas fa-star  p-1" > </i>
-                        <i class=" icon-color fas fa-star  p-1" > </i>
+                    <p class=" text-white text-xl my-2">
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
                         <i class="far fa-star bg-gray-500 p-1"> </i>
                     </p>
                     <span>Based on <u> 1,339 reviews</u></span>
-                    <h2 class="text-lg font-semibold"><i class="fas fa-star text-green-500"> </i>Trustpilot</h2>
+                    <div class="text-lg font-semibold mt-2">
+                        <i class="fas fa-star text-green-500"> </i>
+                        <span>Trustpilot</span>
+                    </div>
+                </div>
+                <div class="mt-10">
+                     <a href=""><i class="fas fa-arrow-circle-left text-gray-300 text-xl"></i></a> 
+                </div>
+                <div class="text-justify text-xs">
+                    <div class="text-white">
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="far fa-star bg-gray-500 p-1"> </i> 
+                        <span class="ml-12 text-gray-700">29 hours ago</span>
+                    </div>
+                    <div class="font-bold text-xs mt-2">
+                        Complete and quick responses
+                    </div>   
+                    <div class=" text-xs mt-2">
+                        Complete and quick responses
+                    </div>
+                    <div class="mt-10 text-gray-700 text-xs">
+                        Computer Design
+                    </div>             
+                </div>
+                <div class="text-justify">
+                    <div class="text-white text-xs">
+                        <i class=" icon-color fas fa-star   p-1" style="background-color:#73CF11;"> </i>
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
+                        <i class="far fa-star bg-gray-500 p-1"> </i>
+                        <span class="text-gray-700 text-xs ml-12">4 days ago</span>
+                    </div>
+                    <div class="font-bold text-xs mt-2">
+                        Response was good but couldnot be faster
+                    </div>   
+                    <div class="text-xs mt-2">
+                        Response was good but couldnot be faster.
+                    </div>
+                    <div class="mt-10 text-gray-700 text-xs">
+                        infomaniacs
+                    </div>             
+                </div>
+                <div class="text-justify text-xs">
+                    <div class="text-white">
+                        <i class=" icon-color fas fa-star bg-green-600 p-1"></i>
+                        <i class=" icon-color fas fa-star bg-green-600 p-1"></i>
+                        <i class=" icon-color fas fa-star bg-green-600 p-1" ></i>
+                        <i class=" icon-color fas fa-star bg-green-600 p-1" ></i>
+                        <i class=" icon-color fas fa-star bg-green-600 p-1" ></i>
+                        <span class="ml-12 text-gray-700">6 Feburary</span>
+                    </div>
+                    <div class="font-bold text-xs mt-2">
+                        Its Good but Please work on android
+                    </div>   
+                    <div class="text-xs mt-2">
+                        Complete and quick responses
+                    </div>
+                    <div class="mt-10 text-gray-700 text-xs">
+                        Computer Design
+                    </div>             
+                </div>
+                <div>
+                     <a href=""><i class="fas fa-arrow-circle-right text-gray-300 text-xl mt-10"></i></a> 
                 </div>
             </div>
         </div>

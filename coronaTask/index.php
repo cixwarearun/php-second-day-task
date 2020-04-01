@@ -462,6 +462,88 @@
             </button>
         </div>
     </section>
-    
+    <section class="bg-teal-900">
+        <div class="mt-16 text-center text-white mx-56 pt-10">
+            <div class="text-4xl">
+                Join BulkSMS Today
+            </div>
+            <div class="mt-8 text-xl">
+                Keep on Connecting
+            </div>
+            <div class="mt-8 pb-16">
+                <button class="rounded-md bg-blue-700 text-white mr-4 px-4 py-2  hover:bg-red-700">
+                    Register your account today!
+                </button>
+                <button class="rounded-md bg-blue-700 text-white ml-4 px-4 py-2  hover:bg-red-700">
+                    view our Pricing
+                </button>
+            </div>
+        </div>
+    </section>
+    <section>
+            <div class="mt-16 mx-48 flex justify-between">
+                <div class="flex flex-col text-blue-700 text-xs">
+                    <a class="text-red-600 font-semibold" href="bulsms.html"> BULKSMS.COM</a>
+                    <a class="mt-2" href="#">SMS from Web</a>
+                    <a class="mt-2" href="#">Desktop SMS Software</a>
+                    <a class="mt-2" href="#">SMS API</a>
+                    <a class="mt-2" href="$">SMS from iPhone</a>
+                    <a class="mt-2" href="$">SMS integrations</a>
+                    <a class="mt-2" href="$">Compare SMS Solutions</a>
+                    <a class="mt-2" href="$">Community SMS Messaging</a>
+                </div>
+                <div class="flex flex-col text-blue-700 text-xs">
+                    <a class="text-red-600 font-semibold" href="#">COMPANY INFO</a>
+                    <a class="mt-2" href="#">SMS Pricing</a>
+                    <a class="mt-2" href="#">SMS Resources</a>
+                    <a class="mt-2" href="#">Company</a>
+                    <a class="mt-2" href="#">Terms of Service</a>
+                    <a class="mt-2" href="#">PAIA Manual</a>
+                    <a class="mt-2" href="#">Support</a>
+                    <a class="mt-2" href="#">Contact</a>
+                </div>
+                <div class="flex flex-col">
+                    <a class="text-xs text-red-600 font-semibold">GET IN TOUCH</a>
+                    <a><i class="fas fa-phone-alt text-gray-500 mt-3"></i> <span class="text-blue-700 text-xs">+27 (0)21 528 3420</span></a>
+                    <a><i class="fas fa-paper-plane text-gray-500  text-"></i> <span class="text-blue-700 text-xs">Email Support</span> </a>
+                    <a class="text-xs text-red-600 mt-8 font-semibold" href="#">FOLLOW US</a>
+                    <div class="mt-3">
+                        <i class="fab fa-linkedin-in text-gray-500 "></i>
+                        <i class="fab fa-facebook-square text-gray-500 mx-3"></i>
+                        <i class="fab fa-twitter text-gray-500"></i>
+                    </div>                       
+                </div>            
+            
+            <div>
+                <div class="text-red-600 text-xs text-center font-semibold">
+                    OUR INDUSTRY ASSOCIATIONS AND SOCIETY
+                 </div>
+                <div class="flex justify-between mt-4">
+                    <div>
+                        <img src="png/wasp.png" alt="wasp">
+                        <img class="mt-8" src="png/mef.png" alt="mef">
+                        <img class="mt-8" src="png/stie.png" alt="sitelock">
+                    </div>
+                    <div class="ml-16">
+                        <img src="png/mma.png" alt="mma">
+                        <img class="mt-8" src="png/trust.png" alt="trust">
+                    </div>
+                </div>
+               
+            </div>
+         </div>
+    </section>
+    <section>
+        <div class="mx-48 mt-6 text-xs ">
+            <div class="text-red-600">
+                SMS COVERAGE DIRECTORY
+            </div>
+            <div>
+                <ol type="A">
+                    <li>ss</li>
+                </ol>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

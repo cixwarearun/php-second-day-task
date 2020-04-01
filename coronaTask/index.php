@@ -348,7 +348,7 @@
         </div>
     </section>
     <section class="mt-10">
-        <div class="text-center mx-64">
+        <div class="text-center mx-56">
             <div class="text-4xl mb-10">
                 What our client love
             </div>
@@ -434,6 +434,33 @@
             </div>
         </div>
         
+    </section>
+    <section>
+        <div class="flex justify-between mx-56 mt-16">
+           <div>
+              <img src="png/flysafari.png" alt="flysafari">
+           </div>
+           <div>
+              <img src="png/castle.png" alt="castle">
+           </div>
+           <div>
+              <img src="png/santa.png" alt="santa">
+           </div>
+           <div>
+              <img src="png/e.png" alt="bee">
+           </div>
+           <div>
+              <img src="png/smeprofessional.png" alt="smeprofessional">
+           </div>
+           <div>
+              <img src="png/Q8.png" alt="Q8">
+           </div>
+        </div>
+        <div class="mx-56 text-center">
+            <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-8 hover:bg-red-700">
+                See Our Case Studies
+            </button>
+        </div>
     </section>
     
 </body>

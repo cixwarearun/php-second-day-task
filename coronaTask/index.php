@@ -557,18 +557,18 @@
         </div>
     </section>
     <section class="bg-gray-300">
-        <div class="flex">
-                <div class="text-xl font-semibold">Great</div>
-                <div class=" text-white text-xl my-2">
+        <div class="flex mx-64 mt-10 p-6">
+                <div class="text-xl font-semibold text-gray-700">Great</div>
+                <div class=" text-white text-xs my-2 ml-4">
                     <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
                     <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
                     <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
                     <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
                     <i class="far fa-star bg-gray-500 p-1"> </i>
                 </div>
-                <div> 1,339 reviews</div>
-               <i class="fas fa-star text-green-500"> </i>
-               <div>Trustpilot</div>
+                <div class="ml-4 mt-1"> 1,339 reviews</div>
+               <i class="fas fa-star text-green-500 mt-2 ml-4"> </i>
+               <div class="mt-1">Trustpilot</div>
               </div>
            
         </div>

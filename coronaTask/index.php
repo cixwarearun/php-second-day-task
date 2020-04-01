@@ -50,7 +50,7 @@
             <div>
                  <img class="h-20" src="png/a.png" alt="fly">
             </div>
-            <div class="pt-4">
+            <div class="pt-8">
                 <a class="mr-8 hover:text-blue-700" href="solution.html">Solution <span class="text-xs">▼</span></a>
                 <a class="mr-8 hover:text-blue-700" href="developers.html">Developers <span class="text-xs">▼</span></a>
                 <a class="mr-8 hover:text-blue-700" href="pricing.html">Pricing</a>
@@ -557,7 +557,8 @@
         </div>
     </section>
     <section class="bg-gray-300">
-        <div class="flex mx-64 mt-10 p-6">
+        <div class="flex mx-56 mt-10 p-6 justify-between">
+            <div class="flex">
                 <div class="text-xl font-semibold text-gray-700">Great</div>
                 <div class=" text-white text-xs my-2 ml-4">
                     <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
@@ -567,11 +568,14 @@
                     <i class="far fa-star bg-gray-500 p-1"> </i>
                 </div>
                 <div class="ml-4 mt-1"> 1,339 reviews</div>
-               <i class="fas fa-star text-green-500 mt-2 ml-4"> </i>
-               <div class="mt-1">Trustpilot</div>
-              </div>
-           
+                <i class="fas fa-star text-green-500 mt-2 ml-4"> </i>
+                <div class="mt-1">Trustpilot</div>
+             </div>
+             <div class="text-xs text-gray-700 mt-2">
+                  &copy; 2000 - 2020 Celerity Systems (Pty) Ltd. All Rights Reserved
+             </div>
         </div>
+      
     
     </section>
 </body>

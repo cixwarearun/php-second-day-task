@@ -488,6 +488,7 @@
     </section>
     <section>
             <div class="mt-16 mx-48 flex justify-between">
+            <div class="flex">    
                 <div class="flex flex-col text-blue-700 text-xs">
                     <a class="text-red-600 font-semibold" href="bulsms.html"> BULKSMS.COM</a>
                     <a class="mt-2" href="#">SMS from Web</a>
@@ -519,11 +520,11 @@
                         <i class="fab fa-twitter text-gray-500"></i>
                     </div>                       
                 </div>            
-            
+            </div>
             <div>
                 <div class="text-red-600 text-xs text-center font-semibold">
                     OUR INDUSTRY ASSOCIATIONS AND SOCIETY
-                 </div>
+                </div>
                 <div class="flex justify-between mt-4">
                     <div>
                         <img src="png/wasp.png" alt="wasp">
@@ -535,12 +536,12 @@
                         <img class="mt-8" src="png/trust.png" alt="trust">
                     </div>
                 </div>
-               
+            
             </div>
          </div>
     </section>
     <section>
-        <div class="mx-48 mt-6 text-xs bg-gray-300 flex px-8 p-4">
+        <div class= " hidden mx-48 mt-6 text-xs bg-gray-300 flex px-8 p-4">
             <div class="text-red-600 font-semibold ">
                 SMS COVERAGE DIRECTORY
             </div>
@@ -557,8 +558,8 @@
         </div>
     </section>
     <section class="bg-gray-300">
-        <div class="flex mx-56 mt-10 p-6 justify-between">
-            <div class="flex">
+        <div class="  mt-10 text-center p-6 xl:mx-56 xl:flex xl:justify-between">
+            <div class="flex justify-center ">
                 <div class="text-xl font-semibold text-gray-700">Great</div>
                 <div class=" text-white text-xs my-2 ml-4">
                     <i class=" icon-color fas fa-star  p-1" style="background-color:#73CF11;"> </i>
@@ -579,4 +580,4 @@
     
     </section>
 </body>
-</html>
+</html> 

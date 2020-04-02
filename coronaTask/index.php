@@ -487,8 +487,8 @@
         </div>
     </section>
     <section>
-            <div class="mt-16 mx-48 flex justify-between">
-            <div class="flex">    
+            <div class="mt-16 mx-32 xl:mx-48 lg:flex lg:justify-between">
+            <div class="flex justify-between">    
                 <div class="flex flex-col text-blue-700 text-xs">
                     <a class="text-red-600 font-semibold" href="bulsms.html"> BULKSMS.COM</a>
                     <a class="mt-2" href="#">SMS from Web</a>
@@ -499,7 +499,7 @@
                     <a class="mt-2" href="$">Compare SMS Solutions</a>
                     <a class="mt-2" href="$">Community SMS Messaging</a>
                 </div>
-                <div class="flex flex-col text-blue-700 text-xs  xl:ml-32">
+                <div class="flex flex-col text-blue-700 text-xs  lg:ml-8  xl:ml-32">
                     <a class="text-red-600 font-semibold" href="#">COMPANY INFO</a>
                     <a class="mt-2" href="#">SMS Pricing</a>
                     <a class="mt-2" href="#">SMS Resources</a>
@@ -509,7 +509,7 @@
                     <a class="mt-2" href="#">Support</a>
                     <a class="mt-2" href="#">Contact</a>
                 </div>
-                <div class="flex flex-col xl:ml-32">
+                <div class="flex flex-col lg:ml-8 xl:ml-32">
                     <a class="text-xs text-red-600 font-semibold">GET IN TOUCH</a>
                     <a><i class="fas fa-phone-alt text-gray-500 mt-3"></i> <span class="text-blue-700 text-xs">+27 (0)21 528 3420</span></a>
                     <a><i class="fas fa-paper-plane text-gray-500  text-"></i> <span class="text-blue-700 text-xs">Email Support</span> </a>
@@ -521,11 +521,11 @@
                     </div>                       
                 </div>            
             </div>
-            <div>
+            <div class="">
                 <div class="text-red-600 text-xs text-center font-semibold">
                     OUR INDUSTRY ASSOCIATIONS AND SOCIETY
                 </div>
-                <div class="flex justify-between mt-4">
+                <div class="flex xl:justify-between mt-4">
                     <div>
                         <img src="png/wasp.png" alt="wasp">
                         <img class="mt-8" src="png/mef.png" alt="mef">
@@ -541,7 +541,7 @@
          </div>
     </section>
     <section>
-        <div class= " hidden mx-48 mt-6 text-xs bg-gray-300 flex px-8 p-4">
+        <div class= "hidden mx-48 mt-6 text-xs bg-gray-300 xl:flex px-8 p-4">
             <div class="text-red-600 font-semibold ">
                 SMS COVERAGE DIRECTORY
             </div>
@@ -558,7 +558,7 @@
         </div>
     </section>
     <section class="bg-gray-300">
-        <div class="  mt-10 text-center p-6 xl:mx-56 xl:flex xl:justify-between">
+        <div class="  mt-10 text-center p-6 mx-32 xl:mx-56 xl:flex xl:justify-between">
             <div class="flex justify-center ">
                 <div class="text-xl font-semibold text-gray-700">Great</div>
                 <div class=" text-white text-xs my-2 ml-4">

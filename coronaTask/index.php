@@ -499,7 +499,7 @@
                     <a class="mt-2" href="$">Compare SMS Solutions</a>
                     <a class="mt-2" href="$">Community SMS Messaging</a>
                 </div>
-                <div class="flex flex-col text-blue-700 text-xs">
+                <div class="flex flex-col text-blue-700 text-xs  xl:ml-32">
                     <a class="text-red-600 font-semibold" href="#">COMPANY INFO</a>
                     <a class="mt-2" href="#">SMS Pricing</a>
                     <a class="mt-2" href="#">SMS Resources</a>
@@ -509,7 +509,7 @@
                     <a class="mt-2" href="#">Support</a>
                     <a class="mt-2" href="#">Contact</a>
                 </div>
-                <div class="flex flex-col">
+                <div class="flex flex-col xl:ml-32">
                     <a class="text-xs text-red-600 font-semibold">GET IN TOUCH</a>
                     <a><i class="fas fa-phone-alt text-gray-500 mt-3"></i> <span class="text-blue-700 text-xs">+27 (0)21 528 3420</span></a>
                     <a><i class="fas fa-paper-plane text-gray-500  text-"></i> <span class="text-blue-700 text-xs">Email Support</span> </a>

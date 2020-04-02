@@ -62,7 +62,7 @@
         </div>      
     </section>
     <section class="bg-gray-300 mx-auto">
-        <div class="flex pb-4 mx-10 justify-center text-center  md:mx-20 xl:mx-48 xl:justify-between mt-4">
+        <div class="flex pb-4 mx-10 text-justify md:mx-20 xl:mx-48 xl:justify-between mt-4">
             <div class="my-auto" >
                 <h1 class="text-4xl">Get Your Message Across</h1>
                 <h3 class="xl:w-2/4 text-gray-700 mt-4">A leading service provider offering two-ways SMS communication from anywhere at any time.</h3>
@@ -83,8 +83,8 @@
             </div>
             <div  class="flex flex-col items-center xl:flex-row xl:justify-between xl:mx-20 mt-20">
                 <div class="max-w-md mb-8 rounded overflow-hidden shadow-lg ">
-                    <div>
-                        <img src="images/a.jpg" alt="image">
+                    <div >
+                        <img  src="images/a.jpg" alt="image">
                     </div>
                     <div class=" text-center mt-2">
                         <h3 class="text-xl text-blue-700 ">Send SMS from Web </h3>
@@ -96,12 +96,12 @@
                     </div>
                 </div>
                 <div class="max-w-md rounded mb-8 overflow-hidden shadow-lg ">
-                    <div class="border-b-2 border-blue-700">
-                        <img src="images/b.jpg" alt="image">
+                    <div class="border-b-2  border-blue-700">
+                        <img  src="images/b.jpg" alt="image">
                     </div>
                     <div class=" text-center mt-2 ">
                         <h3 class="text-xl text-blue-700 ">Use Our SMS API </h3>
-                        <p class="text-gray-700 ">Send SMS automatically from your application of choice.</p>
+                        <p class="text-gray-700 ">Send SMS automatically from your application of choice as you desired.</p>
                         <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-4 hover:bg-red-700 mb-8">
                             Explore Solution
                         </button>
@@ -115,7 +115,7 @@
                     </div>
                     <div class=" text-center mt-2">
                         <h3 class="text-xl text-blue-700 ">Send SMS from Desktop </h3>
-                        <p class="text-gray-700 ">Manage your SMS communication from your computer using our desktop application.</p>
+                        <p class="text-gray-700 ">Manage your SMS communication from your computer using our desktop application. </p>
                         <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-4 hover:bg-red-700 mb-8">
                             Explore Solution
                         </button>
@@ -127,7 +127,7 @@
                     </div>
                     <div class=" text-center mt-2 ">
                         <h3 class="text-xl text-blue-700 ">Send SMS From Mobile </h3>
-                        <p class="text-gray-700 ">Manage, receive and send your text messages from anywhere at any time on your andriod and IOS devices.</p>
+                        <p class="text-gray-700 ">Manage, receive and send your text messages from anywhere at any time on your andriod and IOS devices.It will makes your communication faster.</p>
                         <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-4 hover:bg-red-700 mb-8">
                             Explore Solution
                         </button>
@@ -136,7 +136,7 @@
             </div>
             <div class="flex flex-col items-center xl:flex-row xl:justify-between xl:mx-20 mt-10 ">
                 <div class="max-w-md mb-8 rounded overflow-hidden shadow-lg flex px-10 bg-gray-300 py-4">
-                    <div class="pt-10 mr-4">
+                    <div class="pt-10 mr-8">
                         <img src="png/code.png" alt="our integration">
                     </div>
                     <div>
@@ -148,13 +148,13 @@
                     </div>
                 </div>
                 <div class="max-w-md rounded mb-8 overflow-hidden shadow-lg flex px-10 bg-gray-300 py-4">
-                    <div class="pt-16 mr-4">
+                    <div class="pt-10 mr-8">
                         <img src="png/sms.png" alt="sms">
                     </div>
                     <div>
                         <h1 class="text-xl text-blue-700 font-bold">Receive SMS</h1>
                         <div class="text-justify">
-                            Receive mobile originating SMS messages for marketing and other communication purposes.Try 
+                            Receive mobile originating SMS messages for marketing purposes.Try 
                             <a href="#">Incoming Long Numbers </a> or
                                 <a href="#">SMS Shortcodes. </a>
                         </div>
@@ -222,13 +222,13 @@
         </div>
     </section>
     <section class="mt-10">
-        <div class="mx-10 md:mx-20 xl:mx-64 mt-20  max-w rounded overflow-hidden shadow-inner shadow-lg  text-center pt-10">
+        <div class="mx-10 md:mx-20 flex flex-col item-center xl:mx-64 mt-20  max-w rounded overflow-hidden shadow-inner shadow-lg  text-center pt-10">
             <div class="text-4xl">
                 We Connect to Over 800 Networks, Globally.
             </div>
-            <div class=" md:flex md:flex-row md:justify-between px-20 mt-10">  
+            <div class=" flex flex-col items-center md:flex-row md:justify-between px-20 mt-10">  
 
-                <div class="flex flex-col ">
+                <div class="mt-8 flex flex-col ">
                     <div class="flex mr-10 mb-8">
                         <div>
                              <img src="png/south-africa.png" alt="South Africa">
@@ -257,7 +257,7 @@
                     
                     
                 </div>
-                <div class="flex flex-col  ">
+                <div class="mt-8 mr-16  flex flex-col  ">
                     <div class="flex mb-8">
                          <div>
                            <img src="png/germany.png" alt="Germany">
@@ -285,7 +285,7 @@
                    
                     
                 </div>
-                <div class="flex flex-col  ">
+                <div class="mt-8 flex flex-col  ">
                     <div class="flex mb-8">
                         <div>
                              <img src="png/UK.png" alt="uk">
@@ -314,7 +314,7 @@
                     </div>
                     
                 </div>
-                <div class="flex flex-col ">
+                <div class="mt-8 flex flex-col ">
                     <div class="flex mb-8">
                         <div> 
                             <img src="png/usa.png" alt="usa">
@@ -354,7 +354,7 @@
         </div>
     </section>
     <section class="mt-10">
-        <div class="text-center mx-10 md:mx-20 xl:mx-64">
+        <div class="text-center mx-10 md:mx-20 xl:mx-48">
             <div class="text-4xl mb-10">
                 What our client love
             </div>
@@ -442,7 +442,7 @@
         
     </section>
     <section>
-        <div class="hidden flex flex-col items-center md:flex-row md:justify-between mx-10 md:mx-20 xl:mx-64 mt-16">
+        <div class="mx-10 mt-16 md:flex md:flex-row md:justify-between md:mx-20 xl:mx-48 ">
            <div>
               <img src="png/flysafari.png" alt="flysafari">
            </div>

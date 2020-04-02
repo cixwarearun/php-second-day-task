@@ -18,7 +18,7 @@
 </head>
 <body class="mx-auto">
     <header class="bg-blue-700 mx-auto">
-        <div class="flex justify-between  text-white mx-48 pt-2 pb-2">
+        <div class="flex flex-col items-center  lg:flex-row lg:justify-between  text-white mx-10 md:mx-20 xl:mx-48 pt-2 pb-2">
             <div class="flex text-center">
                 <div class="ml-2">
                 <img src="png/nepal.png" alt="nepal flag"> 
@@ -31,7 +31,7 @@
                 </div>
                 <div class="ml-2">+44 345 4030 767 / +27 21 528 3420</div>
             </div>
-            <div class="flex">
+            <div class="flex mt-4 lg:-mt-1">
                 <div>Login</div>   
                 <div class="ml-2">
                 <i class="fas fa-user-circle"></i>
@@ -46,18 +46,18 @@
         </div>
     </header>
     <section class="mx-auto">
-        <div class="mx-48 text-gray-800 flex justify-between mt-4 ">
+        <div class="flex flex-col items-center text-center mx-10 md:mx-20 xl:mx-48 text-gray-800 md:flex-row md:justify-between mt-4 ">
             <div>
                  <img class="h-20" src="png/a.png" alt="fly">
             </div>
-            <div class="pt-8">
-                <a class="mr-8 hover:text-blue-700" href="solution.html">Solution <span class="text-xs">▼</span></a>
-                <a class="mr-8 hover:text-blue-700" href="developers.html">Developers <span class="text-xs">▼</span></a>
-                <a class="mr-8 hover:text-blue-700" href="pricing.html">Pricing</a>
-                <a class="mr-8 hover:text-blue-700" href="resources.html">Resources <span class="text-xs">▼</span></a>
-                <a class="mr-8 hover:text-blue-700" href="company.html">Company</a>
-                <a class=" mr-8 hover:text-blue-700" href="contact.html">Contact Us</a>
-                <a class="mr-8 rounded-md bg-blue-700 text-white px-4 py-2  hover:bg-red-700" href="#">Sign Up Today</a>       
+            <div class="pt-8 flex flex-col  md:flex-row">
+                <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="solution.html">Solution <span class="text-xs">▼</span></a>
+                <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="developers.html">Developers <span class="text-xs">▼</span></a>
+                <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="pricing.html">Pricing</a>
+                <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="resources.html">Resources <span class="text-xs">▼</span></a>
+                <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="company.html">Company</a>
+                <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="contact.html">Contact Us</a>
+                <a class="md:mr-2 xl:mr-6 rounded-md bg-blue-700 text-white px-4 py-2  hover:bg-red-700" href="#">Sign Up Today</a>       
             </div>
         </div>      
     </section>
@@ -521,7 +521,7 @@
                     </div>                       
                 </div>            
             </div>
-            <div class="mt-8 flex flex-col items-center lg:-mt-2">
+            <div class=" mt-8 flex flex-col items-center lg:-mt-2">
                 <div class="text-red-600 text-xs lg:text-center font-semibold">
                     OUR INDUSTRY ASSOCIATIONS AND SOCIETY
                 </div>

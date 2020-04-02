@@ -48,41 +48,41 @@
     <section class="mx-auto">
         <div class="flex flex-col items-center text-center mx-10 md:mx-20 xl:mx-48 text-gray-800 md:flex-row md:justify-between mt-4 ">
             <div>
-                 <img class="h-20" src="png/a.png" alt="fly">
+                 <img class="hidden xl:flex h-20" src="png/a.png" alt="fly">
             </div>
-            <div class="pt-8 flex flex-col  md:flex-row">
+            <div class=" flex flex-col text-center  md:flex-row md:justify-center">
                 <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="solution.html">Solution <span class="text-xs">▼</span></a>
                 <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="developers.html">Developers <span class="text-xs">▼</span></a>
                 <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="pricing.html">Pricing</a>
                 <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="resources.html">Resources <span class="text-xs">▼</span></a>
                 <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="company.html">Company</a>
                 <a class="md:mr-2 xl:mr-6 hover:text-blue-700" href="contact.html">Contact Us</a>
-                <a class="md:mr-2 xl:mr-6 rounded-md bg-blue-700 text-white px-4 py-2  hover:bg-red-700" href="#">Sign Up Today</a>       
+                <a class="md:mr-2 xl:mr-6 rounded-md bg-blue-700 text-white px-4 py-2 hover:bg-red-700" href="#">Sign Up Today</a>       
             </div>
         </div>      
     </section>
     <section class="bg-gray-300 mx-auto">
-        <div class="flex mx-48 justify-between mt-4">
+        <div class="flex pb-4 mx-10 justify-center text-center  md:mx-20 xl:mx-48 xl:justify-between mt-4">
             <div class="my-auto" >
                 <h1 class="text-4xl">Get Your Message Across</h1>
-                <h3 class="w-2/4 text-gray-700 mt-4">A leading service provider offering two-ways SMS communication from anywhere at any time.</h3>
+                <h3 class="xl:w-2/4 text-gray-700 mt-4">A leading service provider offering two-ways SMS communication from anywhere at any time.</h3>
                 <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-4 hover:bg-red-700">Register your account today</button>
             </div>
             <div>
-                <img class="h-64" src="png/relation.png" alt="image">
+                <img class="hidden xl:flex h-64" src="png/relation.png" alt="image">
             </div>
         </div>     
     </section>
     <section class="mx-auto">
-        <div class="mx-48 mt-20 text-center ">
+        <div class="mx-10 md:mx-20 xl:mx-48 mt-20 text-center ">
             <div class="text-blue-600 text-3xl ">
                 One Account, Many Ways to Send
             </div>
             <div class="text-gray-700 mt-4">
                 <?php echo $a; ?>
             </div>
-            <div  class="flex justify-between mx-20 mt-20">
-                <div class="max-w-md rounded overflow-hidden shadow-lg ">
+            <div  class="flex flex-col items-center xl:flex-row xl:justify-between xl:mx-20 mt-20">
+                <div class="max-w-md mb-8 rounded overflow-hidden shadow-lg ">
                     <div>
                         <img src="images/a.jpg" alt="image">
                     </div>
@@ -95,7 +95,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="max-w-md rounded overflow-hidden shadow-lg ">
+                <div class="max-w-md rounded mb-8 overflow-hidden shadow-lg ">
                     <div class="border-b-2 border-blue-700">
                         <img src="images/b.jpg" alt="image">
                     </div>
@@ -108,8 +108,8 @@
                     </div>
                 </div>
             </div>
-            <div  class="flex justify-between mx-20 mt-10">
-                <div class="max-w-md rounded overflow-hidden shadow-lg ">
+            <div  class="flex flex-col items-center xl:flex-row xl:justify-between xl:mx-20 mt-10">
+                <div class="max-w-md mb-8 rounded overflow-hidden shadow-lg ">
                     <div>
                         <img src="images/c.jpg" alt="">
                     </div>
@@ -121,7 +121,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="max-w-md rounded overflow-hidden shadow-lg ">
+                <div class="max-w-md rounded mb-8 overflow-hidden shadow-lg ">
                     <div class="border-b-2 border-blue-700">
                         <img src="images/d.jpg" alt="">
                     </div>
@@ -134,8 +134,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-between mx-20 mt-10 ">
-                <div class="max-w-md rounded overflow-hidden shadow-lg flex px-10 bg-gray-300 py-4">
+            <div class="flex flex-col items-center xl:flex-row xl:justify-between xl:mx-20 mt-10 ">
+                <div class="max-w-md mb-8 rounded overflow-hidden shadow-lg flex px-10 bg-gray-300 py-4">
                     <div class="pt-10 mr-4">
                         <img src="png/code.png" alt="our integration">
                     </div>
@@ -147,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="max-w-md rounded overflow-hidden shadow-lg flex px-10 bg-gray-300 py-4">
+                <div class="max-w-md rounded mb-8 overflow-hidden shadow-lg flex px-10 bg-gray-300 py-4">
                     <div class="pt-16 mr-4">
                         <img src="png/sms.png" alt="sms">
                     </div>
@@ -168,12 +168,12 @@
         </div>
     </section>
     <section class="bg-blue-700">
-        <div class="mx-64  mt-20 text-center text-white pb-12 ">
+        <div class=" mx-10 md:mx-20 xl:mx-48 mt-20 text-center text-white pb-12 ">
             <div class="pt-10 mb-10  text-4xl font-bold">
                 Why BulkSMS
             </div>
-            <div class="flex justify-between">
-                <div class="text-center max-w-md">
+            <div class="flex flex-col items-center xl:flex-row xl:justify-between">
+                <div class="text-center pt-8 max-w-md">
                     <div class="flex justify-center" >
                         <img class="rounded-full h-32 " src="png/support.png" alt="support">
                     </div>
@@ -184,7 +184,7 @@
                         Our support team is dedicated to helping you get your SMS message across.
                     </div>
                 </div>
-                <div class="text-center max-w-md ">
+                <div class="text-center pt-8 max-w-md ">
                     <div class="flex justify-center">
                         <img class="rounded-full h-32" src="png/reliabledelivery.jpg" alt="delivery">
                     </div>
@@ -195,7 +195,7 @@
                         We send your message through the most reliable routes on offer.
                     </div>
                 </div>
-                <div class="text-center max-w-md">
+                <div class="text-center pt-8 max-w-md">
                     <div class="flex justify-center">
                         <img class="rounded-full h-32" src="png/medal.jpg" alt="regulations">
                     </div>
@@ -206,7 +206,7 @@
                          Easy access to infromation on industry best practices and regional regulations.
                     </div>
                 </div>
-                <div class="text-center max-w-md">
+                <div class="text-center pt-8 max-w-md">
                     <div class="flex justify-center">
                         <img class="rounded-full h-32" src="png/easy.jpg" alt="easy">
                     </div>
@@ -222,11 +222,11 @@
         </div>
     </section>
     <section class="mt-10">
-        <div class="max-w rounded overflow-hidden shadow-inner shadow-lg mx-64 text-center pt-10">
+        <div class="mx-10 md:mx-20 xl:mx-64 mt-20  max-w rounded overflow-hidden shadow-inner shadow-lg  text-center pt-10">
             <div class="text-4xl">
                 We Connect to Over 800 Networks, Globally.
             </div>
-            <div class="flex justify-between px-20 mt-10">  
+            <div class=" md:flex md:flex-row md:justify-between px-20 mt-10">  
 
                 <div class="flex flex-col ">
                     <div class="flex mr-10 mb-8">
@@ -354,11 +354,11 @@
         </div>
     </section>
     <section class="mt-10">
-        <div class="text-center mx-56">
+        <div class="text-center mx-10 md:mx-20 xl:mx-64">
             <div class="text-4xl mb-10">
                 What our client love
             </div>
-            <div class="flex justify-between">
+            <div class="flex flex-col items-center md:flex-row md:justify-between">
                 <div >
                     <h3 class="text-xl font-semibold">Great</h3>
                     <p class=" text-white text-xl my-2">
@@ -369,12 +369,12 @@
                         <i class="far fa-star bg-gray-500 p-1"> </i>
                     </p>
                     <span>Based on <u> 1,339 reviews</u></span>
-                    <div class="text-lg font-semibold mt-2">
+                    <div class="text-lg font-semibold mb-2 mt-2">
                         <i class="fas fa-star text-green-500"> </i>
                         <span>Trustpilot</span>
                     </div>
                 </div>
-                <div class="mt-10">
+                <div class="hidden mt-10 md:flex">
                      <a href=""><i class="fas fa-arrow-circle-left text-gray-300 text-xl"></i></a> 
                 </div>
                 <div class="text-justify text-xs">
@@ -442,7 +442,7 @@
         
     </section>
     <section>
-        <div class="flex justify-between mx-56 mt-16">
+        <div class="hidden flex flex-col items-center md:flex-row md:justify-between mx-10 md:mx-20 xl:mx-64 mt-16">
            <div>
               <img src="png/flysafari.png" alt="flysafari">
            </div>
@@ -462,25 +462,25 @@
               <img src="png/Q8.png" alt="Q8">
            </div>
         </div>
-        <div class="mx-56 text-center">
+        <div class="mx-10 md:mx-20 xl:mx-64  text-center">
             <button class="rounded-md bg-blue-700 text-white px-4 py-2 mt-8 hover:bg-red-700">
                 See Our Case Studies
             </button>
         </div>
     </section>
     <section class="bg-teal-900">
-        <div class="mt-16 text-center text-white mx-56 pt-10">
+        <div class="mt-16 mx-10 md:mx-20 xl:mx-64 text-center text-white  pt-10">
             <div class="text-4xl">
                 Join BulkSMS Today
             </div>
             <div class="mt-8 text-xl">
                 Keep on Connecting
             </div>
-            <div class="mt-8 pb-16">
+            <div class="flex flex-col items-center md:flex-row md:justify-center mt-8 pb-16 ">
                 <button class="rounded-md bg-blue-700 text-white mr-4 px-4 py-2  hover:bg-red-700">
                     Register your account today!
                 </button>
-                <button class="rounded-md bg-blue-700 text-white ml-4 px-4 py-2  hover:bg-red-700">
+                <button class="rounded-md bg-blue-700 text-white m-4 px-4 py-2  hover:bg-red-700">
                     view our Pricing
                 </button>
             </div>

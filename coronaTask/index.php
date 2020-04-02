@@ -487,8 +487,8 @@
         </div>
     </section>
     <section>
-            <div class="mt-16 mx-32 xl:mx-48 lg:flex lg:justify-between">
-            <div class="flex justify-between">    
+            <div class="mt-16 mx-20 md:mx-32 xl:mx-48 lg:flex lg:justify-between">
+            <div class="flex  flex-row justify-center">    
                 <div class="flex flex-col text-blue-700 text-xs">
                     <a class="text-red-600 font-semibold" href="bulsms.html"> BULKSMS.COM</a>
                     <a class="mt-2" href="#">SMS from Web</a>
@@ -499,7 +499,7 @@
                     <a class="mt-2" href="$">Compare SMS Solutions</a>
                     <a class="mt-2" href="$">Community SMS Messaging</a>
                 </div>
-                <div class="flex flex-col text-blue-700 text-xs  lg:ml-8  xl:ml-32">
+                <div class="ml-4 flex flex-col text-blue-700 text-xs  md:ml-8  xl:ml-24">
                     <a class="text-red-600 font-semibold" href="#">COMPANY INFO</a>
                     <a class="mt-2" href="#">SMS Pricing</a>
                     <a class="mt-2" href="#">SMS Resources</a>
@@ -509,7 +509,7 @@
                     <a class="mt-2" href="#">Support</a>
                     <a class="mt-2" href="#">Contact</a>
                 </div>
-                <div class="flex flex-col lg:ml-8 xl:ml-32">
+                <div class="flex ml-4 mb-10 flex-col md:ml-8 xl:ml-24">
                     <a class="text-xs text-red-600 font-semibold">GET IN TOUCH</a>
                     <a><i class="fas fa-phone-alt text-gray-500 mt-3"></i> <span class="text-blue-700 text-xs">+27 (0)21 528 3420</span></a>
                     <a><i class="fas fa-paper-plane text-gray-500  text-"></i> <span class="text-blue-700 text-xs">Email Support</span> </a>
@@ -521,8 +521,8 @@
                     </div>                       
                 </div>            
             </div>
-            <div class="">
-                <div class="text-red-600 text-xs text-center font-semibold">
+            <div class="mt-8 flex flex-col items-center lg:-mt-2">
+                <div class="text-red-600 text-xs lg:text-center font-semibold">
                     OUR INDUSTRY ASSOCIATIONS AND SOCIETY
                 </div>
                 <div class="flex xl:justify-between mt-4">
@@ -558,7 +558,7 @@
         </div>
     </section>
     <section class="bg-gray-300">
-        <div class="  mt-10 text-center p-6 mx-32 xl:mx-56 xl:flex xl:justify-between">
+        <div class="  mt-10 text-center p-6 md:mx-32 xl:mx-56 xl:flex xl:justify-between">
             <div class="flex justify-center ">
                 <div class="text-xl font-semibold text-gray-700">Great</div>
                 <div class=" text-white text-xs my-2 ml-4">
